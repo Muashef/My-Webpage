@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text-primary{
+    color: #2d405f !important;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#nav-bar ul li a:hover{
+    color: #007bff !important;
+}
+
+#hero img{
+    max-width: 40%;
+}
+.features-icon img{
+    max-width: 100%;
+}
+
+#features h1::after{
+    content: "";
+    background: #2d405f;
+    display: block;
+    height: 3px;
+    width: 50px;
+    margin: 15px auto 5px; 
+}
+
+#Services{
+    background-color: #2d405f;
+    color: #fff !important;
+}
+
+#Services h1::after{
+    content: "";
+    background: #fff;
+    display: block;
+    height: 3px;
+    width: 50px;
+    margin: 15px auto 5px;
+}
+
+.services-icon{
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+#Services .col-lg-3:hover{
+    background-color: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+#team img{
+    max-width: 100%;
+}
+
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.profile-pic .img-box img{
+    filter: grayscale(1);
+}
+
+.profile-pic .img-box img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+#team .fa{
+    height: 25px;
+    width: 25px;
+    color: #fff !important;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.img-box ul{
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.img-box:hover ul{
+    opacity: 1;
+}
+
+.img-box ul .img-box li{
+    transition: 0.5s;
+}
+
+#contact-us h1::after{
+    content: "";
+    display: block;
+    background-color: #2d405f;
+    height: 3px;
+    width: 50px;
+    margin: 15px auto 10px;
+}
+
+#contact-us{
+    background: #efefef;
+}
